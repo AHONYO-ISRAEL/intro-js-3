@@ -1,0 +1,154 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    font-family: agency FB;
+    background: #01081e;
+
+
+}
+
+body{
+    height: 200vh;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+padding: 0  0  50px;
+position: fixed;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 120px;
+    margin-right: 6%;
+}
+
+
+
+header .navbar li{
+    font-size: 18px;
+    font-weight: 500;
+    color: #e2ddd4;
+}
+.logo{
+    color: #e2ddd4;
+}
+.starry_night{
+    width: 80%;
+}
+.moon{
+    margin-top: 8vh;
+    margin-left: 45%;
+width: 100px;
+height: 100px;
+    z-index: 3;
+    position:fixed;
+}
+
+.nuage{
+    width: 15%;
+   margin-top: 35px; 
+  position: absolute;  
+}
+
+.n1{
+    margin-left: 40%;
+
+    z-index:- 1;
+}
+
+.n2{
+margin-left:60%;
+
+    z-index: 3;
+}
+
+.n3{
+    margin-left: 35%;
+    margin-top: -30px;
+}
+
+.n4{
+    margin-left: -50px;
+    margin-top: -100px;
+    z-index: -1;
+}
+
+
+.test{
+    margin-top: 50vh;
+    color: #e2ddd4;
+    position: absolute;
+}
+
+.clock_element{
+    position: fixed;
+
+    align-items: center;
+top: 0;
+left: 0;
+    align-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 35vh;
+    margin-left: 26%;
+
+}
+.clock_element div{
+margin-left: 10px;
+background: transparent;
+}
+.mini{
+    width: 40px;
+    height: 200px;
+    border: solid  2px  wheat;
+
+
+}
+
+.mini1{
+    width: 70px;
+    height: 250px;
+    border: solid  2px wheat;
+
+
+}
+
+.mini2{
+    width: 100px;
+    height: 300px;
+    border: solid  2px wheat;
+
+
+}
+.principal{
+        width: 130px;
+        height: 350px;
+        border: solid  2px wheat;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    
+    }
+
+.principal img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
